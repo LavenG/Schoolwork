@@ -1,0 +1,101 @@
++-------------------------+--------------+----------------+
+| WAREHOUSENAME           | PRODUCTNAME  | TOTAL_QUANTITY |
++-------------------------+--------------+----------------+
+| Americold Logistics     | Books        |             80 |
+| Americold Logistics     | Kindle       |            198 |
+| Americold Logistics     |              |            278 |
+| Cloverleaf, Inc.        | Routers      |            140 |
+| Cloverleaf, Inc.        |              |            140 |
+| Congebec Logistics, Inc | Bicycle      |            360 |
+| Congebec Logistics, Inc |              |            360 |
+| Freezer                 | Books        |            180 |
+| Freezer                 | Laptop       |            570 |
+| Freezer                 |              |            750 |
+| Frialsa Frigorificos De | GPS          |            210 |
+| Frialsa Frigorificos De | Music CDs    |           2800 |
+| Frialsa Frigorificos De |              |           3010 |
+| VersaCold               | mobile phone |            990 |
+| VersaCold               |              |            990 |
+|                         |              |           5528 |
++-------------------------+--------------+----------------+
++-------------------------+--------------+----------------+
+| WAREHOUSENAME           | PRODUCTNAME  | TOTAL_QUANTITY |
++-------------------------+--------------+----------------+
+| Congebec Logistics, Inc | Bicycle      |            360 |
+|                         | Bicycle      |            360 |
+| Americold Logistics     | Books        |             80 |
+| Freezer                 | Books        |            180 |
+|                         | Books        |            260 |
+| Frialsa Frigorificos De | GPS          |            210 |
+|                         | GPS          |            210 |
+| Americold Logistics     | Kindle       |            198 |
+|                         | Kindle       |            198 |
+| Freezer                 | Laptop       |            570 |
+|                         | Laptop       |            570 |
+| VersaCold               | mobile phone |            990 |
+|                         | mobile phone |            990 |
+| Frialsa Frigorificos De | Music CDs    |           2800 |
+|                         | Music CDs    |           2800 |
+| Cloverleaf, Inc.        | Routers      |            140 |
+|                         | Routers      |            140 |
+|                         |              |           5528 |
++-------------------------+--------------+----------------+
++-------------------+----------------+--------------+
+| PRODUCTUSAGEVALUE | PRODUCTNAME    | PRODUCTID    |
++-------------------+----------------+--------------+
+|                21 | Books          | 9527-24-8096 |
+|                32 | Books          | 9527-24-8096 |
+|              37.6 | PC machine     | 2527-24-8016 |
+|                52 | Books          | 9527-24-8096 |
+|                66 | Storage Device | 9156-12-9238 |
+|              74.5 | Music CDs      | 1016-51-3919 |
+|              77.6 | PC machine     | 2527-24-8016 |
+|              81.1 | Bicycle        | 0015-21-3921 |
+|              88.4 | Music CDs      | 1016-51-3919 |
+|                89 | GPS            | 3235-65-7764 |
+|                90 | XBOX           | 2651-01-2126 |
+|                92 | mobile phone   | 2348-09-0445 |
+|                97 | mobile phone   | 2348-09-0445 |
+|              97.5 | Fire phone     | 2333-44-9989 |
++-------------------+----------------+--------------+
++----------------+--------------+-------+------------+-------------+
+| PRODUCTNAME    | PRODUCTID    | PRICE | WEIGHTINLB | EIN         |
++----------------+--------------+-------+------------+-------------+
+| Bicycle        | 0015-21-3921 |   101 |         98 | NULL        |
+| Car            | 7756-01-3465 | 10999 |       2999 | NULL        |
+| CRM            | 2398-89-1234 |  1999 |          0 | 997-89-7633 |
+| ERP            | 2377-19-6534 |   999 |          0 | 997-89-7633 |
+| Fire phone     | 2333-44-9989 |    99 |        1.2 | 100-40-0012 |
+| Glasses        | 1731-01-2425 |  1418 |        0.3 | 129-03-7643 |
+| GPS            | 3235-65-7764 |   500 |        0.3 | 993-44-7897 |
+| Kindle         | 1321-11-8899 |    49 |        0.8 | 100-40-0012 |
+| Laptop         | 2618-99-0505 |   399 |        6.6 | 098-29-9898 |
+| mobile phone   | 2348-09-0445 |    99 |        0.8 | 098-29-9898 |
+| Music CDs      | 1016-51-3919 |    29 |        0.5 | NULL        |
+| Nut            | 1537-24-8221 |  18.9 |        1.8 | NULL        |
+| PC machine     | 2527-24-8016 |   199 |       19.2 | 100-40-0012 |
+| Routers        | 3631-13-2351 |    86 |          1 | 983-44-7897 |
+| SERVERS        | 9135-54-9238 |   982 |         30 | 397-89-7633 |
+| Storage Device | 9156-12-9238 |  1480 |         30 | 397-89-7633 |
+| XBOX           | 2651-01-2126 |   199 |       2.01 | 194-74-7823 |
++----------------+--------------+-------+------------+-------------+
++--------+----------+-----------+
+| ITEMID | ITEMSIZE | SECONDARY |
++--------+----------+-----------+
+| 0001   |        6 | 0003      |
+| 0002   |        8 | 0004      |
+| 0003   |        2 | NULL      |
+| 0004   |        7 | NULL      |
+| 0007   |       12 | 0009      |
+| 0009   |       11 | NULL      |
+| 0016   |       19 | NULL      |
+| 0017   |       22 | 0021      |
+| 0018   |       32 | 0019      |
+| 0019   |       31 | NULL      |
+| 0021   |       23 | NULL      |
+| 0024   |       34 | NULL      |
+| 0026   |       37 | NULL      |
+| 0038   |       12 | 0009      |
+| 0048   |       87 | NULL      |
+| 0058   |       30 | 0019      |
++--------+----------+-----------+

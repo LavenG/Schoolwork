@@ -1,0 +1,85 @@
++-------------+--------------+
+| PRODUCTNAME | PRODUCTID    |
++-------------+--------------+
+| Bicycle     | 0015-21-3921 |
+| Car         | 7756-01-3465 |
+| Music CDs   | 1016-51-3919 |
+| Nut         | 1537-24-8221 |
++-------------+--------------+
++-------------+--------+
+| EIN         | NAME   |
++-------------+--------+
+| 077-02-1330 | GOOGLE |
+| 108-64-2222 | AMEX   |
+| 999-88-3312 | CITI   |
+| 999-98-5698 | BOA    |
++-------------+--------+
++---------------+
+| AVERAGE_PRICE |
++---------------+
+|        2752.2 |
++---------------+
++---------------+---------------+--------------+
+| CUSTOMER_NAME | CREDIT_RATING | PRODUCT_NAME |
++---------------+---------------+--------------+
+| ACER          |          8.11 | Bicycle      |
+| AMD           |          NULL | Music CDs    |
+| AMD           |          NULL | Kindle       |
+| HP            |          5.12 | Laptop       |
+| IBM           |          6.72 | Laptop       |
+| IBM           |          6.72 | Books        |
+| INTEL         |          5.73 | GPS          |
+| INTEL         |          5.73 | mobile phone |
+| LENOVO        |          7.24 | Books        |
+| LENOVO        |          7.24 | Laptop       |
+| LENOVO        |          7.24 | mobile phone |
+| SONY          |          NULL | Routers      |
++---------------+---------------+--------------+
++--------------------------+-------------+----------+
+| SHIPPER_NAME             | SHIPPER_EIN | PRICE_LB |
++--------------------------+-------------+----------+
+| USPS                     | 113-21-3856 |     1.12 |
+| K INTERATIONAL TRANSPORT | 234-90-9037 |     1.78 |
+| FLATRATE                 | 798-99-0537 |     2.13 |
++--------------------------+-------------+----------+
++--------------+----------------+
+| PRODUCT_1    | PRODUCT_2      |
++--------------+----------------+
+| Bicycle      | PC machine     |
+| Bicycle      | Storage Device |
+| Books        | PC machine     |
+| Fire phone   | GPS            |
+| Fire phone   | Storage Device |
+| Fire phone   | Bicycle        |
+| Fire phone   | PC machine     |
+| GPS          | Storage Device |
+| mobile phone | GPS            |
+| mobile phone | Bicycle        |
+| mobile phone | PC machine     |
+| mobile phone | Storage Device |
+| Music CDs    | Bicycle        |
+| Music CDs    | PC machine     |
+| Music CDs    | Storage Device |
+| PC machine   | Storage Device |
++--------------+----------------+
++--------------+---------------+
+| CUSTOMER_EIN | CUSTOMER_NAME |
++--------------+---------------+
+| 378-35-1108  | LENOVO        |
++--------------+---------------+
++--------------+-------+----------+
+| PRODUCT_NAME | PRICE | ITEMSIZE |
++--------------+-------+----------+
+| Car          | 10999 |       87 |
++--------------+-------+----------+
++---------------+--------------------+
+| CUSTOMER_NAME | SHIPMENT_PRICE     |
++---------------+--------------------+
+| ACER          |  39513.60016822815 |
+| HP            |  5623.200220870967 |
+| LENOVO        |  2208.600035905836 |
+| IBM           |   2099.70006251335 |
+| AMD           |   1867.37600887084 |
+| INTEL         | 429.12000123739233 |
+| SONY          | 249.19999599456787 |
++---------------+--------------------+
