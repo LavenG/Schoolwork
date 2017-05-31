@@ -1,5 +1,4 @@
 /* Student Name: Nissan Azizov */
-/* N number: 13870969 */
 
 /* Clean up any previous homework answers */
 DROP TABLE IF EXISTS ANSWER01;
