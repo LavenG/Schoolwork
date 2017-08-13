@@ -3,7 +3,7 @@
 */
 
 public class Process {
-	private int processID;
+    private int processID;
     private double a;
     private double b; 
     private double c;
