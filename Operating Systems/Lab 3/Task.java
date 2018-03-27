@@ -5,20 +5,20 @@ import java.util.ArrayList;
 */
 
 public class Task {
-	private int taskNum; 							// The task's ID
+	private int taskNum; 				// The task's ID
 	private ArrayList<Instruction> instructions; 	// List of instructions associated with the task
-	private ArrayList<Integer> usedResources;		// List of resources used by the task
-	private int currentInstruction;					// Index of current instruction
-	private int totalTime;							// Time taken for task to finish
-	private int waitTime;							// Amount of time the task waited
-	private double percentWaiting;					// Percentage of total time spent waiting
-	private int blockedTime;						// Amount of time the task was blocked
-	private boolean mustAbort;						// True if the task has to be aborted (Used for Banker)
-	private boolean aborted;						// True if the task has been aborted
-	private boolean blocked;						// True if the task is blocked
-	private boolean terminated;						// True if the task is terminated
-	private boolean justReleased;					// True if the task has just been unblocked
-	private boolean safe;							// True if the task is safe (Used for Banker)
+	private ArrayList<Integer> usedResources;	// List of resources used by the task
+	private int currentInstruction;			// Index of current instruction
+	private int totalTime;				// Time taken for task to finish
+	private int waitTime;				// Amount of time the task waited
+	private double percentWaiting;			// Percentage of total time spent waiting
+	private int blockedTime;			// Amount of time the task was blocked
+	private boolean mustAbort;			// True if the task has to be aborted (Used for Banker)
+	private boolean aborted;			// True if the task has been aborted
+	private boolean blocked;			// True if the task is blocked
+	private boolean terminated;			// True if the task is terminated
+	private boolean justReleased;			// True if the task has just been unblocked
+	private boolean safe;				// True if the task is safe (Used for Banker)
 	
 	// Constructor
 	public Task(int resourceCount) {
