@@ -5,17 +5,17 @@ import java.util.ArrayList;
 */
 
 public class Instruction {
-	private String activity; 					// Possible activities are initiate, request, compute, release and terminate
-	private int taskNum; 						// ID of the task that uses the instruction
-	private int resource; 						// Index of the resource used
-	private int units; 							// Number of units required
-	private int cycles; 						// Number of cycles required
+	private String activity; 			// Possible activities are initiate, request, compute, release and terminate
+	private int taskNum; 				// ID of the task that uses the instruction
+	private int resource; 				// Index of the resource used
+	private int units; 				// Number of units required
+	private int cycles; 				// Number of cycles required
 	private ArrayList<Integer> initialClaim; 	// Initial claim of task
 	private ArrayList<Integer> currentClaim;	// Current claim of task
 	private ArrayList<Integer> maxClaim;		// Max claim of task
-	private boolean lastComputed;				// True if last instruction is "compute"
-	private boolean counted;					// True if the instruction has been counted
-	private boolean exceedsClaim; 				// True if the task exceeds claim during execution (Used for Banker)
+	private boolean lastComputed;			// True if last instruction is "compute"
+	private boolean counted;			// True if the instruction has been counted
+	private boolean exceedsClaim; 			// True if the task exceeds claim during execution (Used for Banker)
 	
 	// Constructor
 	public Instruction() {
