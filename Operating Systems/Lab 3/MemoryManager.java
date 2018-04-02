@@ -7,26 +7,26 @@ import java.util.Scanner;
 public class MemoryManager {
 	// Variables
 	static Scanner input; 							
-	static StringBuilder FIFOOutput;				// Output for FIFO
-	static StringBuilder bankerOutput;				// Output for Banker
-	static int taskCount;							// Number of tasks
-	static int resourceCount;						// Number of resources
+	static StringBuilder FIFOOutput;			// Output for FIFO
+	static StringBuilder bankerOutput;			// Output for Banker
+	static int taskCount;					// Number of tasks
+	static int resourceCount;				// Number of resources
 	static ArrayList<Integer> resources;			// List of resources
 	static ArrayList<Integer> initialResources;		// List of initial resources
-	static ArrayList<Task> tasks;					// List of tasks
+	static ArrayList<Task> tasks;				// List of tasks
 	static ArrayList<Task> blockedTasks;			// List of blocked tasks
-	static Instruction inst;						// The current instruction
-	static Instruction rootInst;					// The root instruction
-	static Instruction testInstBlock;				// Test for current instruction
-	static Instruction testRootBlock;				// Test for root instruction
-	static int time;								// Time
-	static int blockedCount;						// Number of blocked tasks
-	static int terminatedCount;						// Number of terminated tasks
-	static int[] activeTasksCount;					// Number of active tasks per resource
-	static boolean abort;							// True if a current task must abort
-	static int totalTime;							// Total amount of time used by all tasks
-	static int totalWaitingTime;					// Total amount of time all tasks waited
-	static double totalPercentWaiting;				// Percentage of total time spent waiting
+	static Instruction inst;				// The current instruction
+	static Instruction rootInst;				// The root instruction
+	static Instruction testInstBlock;			// Test for current instruction
+	static Instruction testRootBlock;			// Test for root instruction
+	static int time;					// Time
+	static int blockedCount;				// Number of blocked tasks
+	static int terminatedCount;				// Number of terminated tasks
+	static int[] activeTasksCount;				// Number of active tasks per resource
+	static boolean abort;					// True if a current task must abort
+	static int totalTime;					// Total amount of time used by all tasks
+	static int totalWaitingTime;				// Total amount of time all tasks waited
+	static double totalPercentWaiting;			// Percentage of total time spent waiting
 	
 	/*
 	 	Reads/parses input file
