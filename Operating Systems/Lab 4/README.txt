@@ -17,3 +17,7 @@ D, the level of debugging output (Not implemented).
 Sample input:
 
 java Pager 10 10 20 1 10 LRU 0
+
+Notes:
+- Tasked with simulating OS demand paging.
+- Outputs are all correct and as expected.
