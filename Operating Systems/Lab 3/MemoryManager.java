@@ -32,7 +32,7 @@ public class MemoryManager {
 	 	Reads/parses input file
 	*/
 	public static void readInput(String filePath) throws FileNotFoundException {
-		FileReader fReader = new FileReader(filePath);
+	FileReader fReader = new FileReader(filePath);
         input = new Scanner(fReader);
         tasks = new ArrayList<Task>();
         
